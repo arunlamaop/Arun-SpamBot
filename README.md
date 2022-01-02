@@ -48,5 +48,5 @@
      
 
 ##✧✧ᴄʀᴇᴅɪᴛs✧✧
-𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 :[𝐅𝐒] (https://t.me/FinalStrikeCommunity)
-𝐎𝐖𝐍𝐄𝐑 :- @TMG_ARUN https://t.me/TMG_ARUN
+𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 : https://t.me/TeamBlackstorm
+𝐎𝐖𝐍𝐄𝐑 :- ♨️𝐍𝐎𝐁𝐈♨️
