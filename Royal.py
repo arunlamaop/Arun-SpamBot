@@ -1026,7 +1026,7 @@ async def _(e):
         yukki = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)     
         if len(e.text) > 5:
             bio = str(yukki[0])
-            text = "𝐑𝐨𝐲𝐚𝐥𝐒𝐩𝐚𝐦𝐁𝐨𝐭 𝐂𝐡𝐚𝐧𝐠𝐢𝐧𝐠 𝐁𝐢𝐨🔥"
+            text = "𝐀𝐫𝐮𝐧𝐒𝐩𝐚𝐦𝐁𝐨𝐭 𝐂𝐡𝐚𝐧𝐠𝐢𝐧𝐠 𝐁𝐢𝐨🔥"
             event = await e.reply(text, parse_mode=None, link_preview=None )
             try:
                 await e.client(functions.account.UpdateProfileRequest(about=bio))
@@ -1074,11 +1074,11 @@ async def _(e):
         yukki = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)
         if len(e.text) > 6:
             bc = yukki[0]
-            text = "𝗝𝗢𝗜𝗡𝗜𝗡𝗚 🔥"
+            text = "Succesfully Joined"
             event = await e.reply(text, parse_mode=None, link_preview=None )
             try:
                 await e.client(functions.channels.JoinChannelRequest(channel=bc))
-                await event.edit("【★𝐑𝐨𝐲𝐚𝐥𝐬★】𝐉𝐨𝐢𝐧𝐞𝐝🔥")
+                await event.edit("【★𝗝𝗢𝗜𝗡★】𝗛𝗢𝗚𝗔𝗬𝗔 𝗕𝗢𝗦𝗦🔥")
             except Exception as e:
                 await event.edit(str(e))   
         else:
@@ -1173,7 +1173,7 @@ async def _(e):
         if len(e.text) > 7:
             bc = yukki[0]
             bc = int(bc)
-            text = "【★𝐓𝐒★】 Leaving....."
+            text = "Succesfully Left"
             event = await e.reply(text, parse_mode=None, link_preview=None )
             try:
                 await event.client(LeaveChannelRequest(bc))
@@ -1800,11 +1800,11 @@ async def get_users(event):
 async def ping(e):
     if e.sender_id in SMEX_USERS:
         start = datetime.now()
-        text = "#𝐓𝐞𝐚𝐦𝐑𝐨𝐲𝐚𝐥❤🔥!"
+        text = "#TeamArun❤🔥!"
         event = await e.reply(text, parse_mode=None, link_preview=None )
         end = datetime.now()
         ms = (end-start).microseconds / 1000
-        await event.edit(f" #𝐓𝐡𝐞𝐑𝐨𝐲𝐚𝐥𝐬🔥!\n`{ms}` @II_RoyalNetwork_II🔥!")
+        await event.edit(f" 𝗣𝗼𝗻𝗴💣!\n`{ms}` ARUN👅SPAMBOT💣!")
 
 
 
@@ -2017,12 +2017,12 @@ async def help(e):
     
         
 text = """
-#𝐃𝐄𝐏𝐋𝐎𝐘𝐄𝐃 𝐑𝐨𝐲𝐚𝐥 𝐒𝐩𝐚𝐦 𝐁𝐨𝐭
-𝗕𝗬 #𝐓𝐞𝐚𝐦𝐑𝐨𝐲𝐚𝐥💥"""
+#𝐃𝐄𝐏𝐋𝐎𝐘𝐄𝐃 𝐀𝐫𝐮𝐧𝐒𝐩𝐚𝐦𝐁𝐨𝐭
+𝗕𝗬 #𝐓𝐞𝐚𝐦𝐀𝐫𝐮𝐧⛓️"""
 
 print(text)
 print("")
-print("❀𝐑𝐎𝐘𝐀𝐋 𝐒𝐏𝐀𝐌 𝐁𝐎𝐓 𝐑𝐄𝐀𝐃𝐘❀")
+print("❀𝐀𝐑𝐔𝐍 𝐒𝐏𝐀𝐌 𝐁𝐎𝐓 𝐑𝐄𝐀𝐃𝐘❀")
 if len(sys.argv) not in (1, 3, 4):
     try:
         idk.disconnect()
