@@ -1026,7 +1026,7 @@ async def _(e):
         yukki = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)     
         if len(e.text) > 5:
             bio = str(yukki[0])
-            text = "𝐀𝐫𝐮𝐧𝐒𝐩𝐚𝐦𝐁𝐨𝐭 𝐂𝐡𝐚𝐧𝐠𝐢𝐧𝐠 𝐁𝐢𝐨🔥"
+            text = "𝐀𝐫𝐮𝐧𝐒𝐩𝐚𝐦𝐁𝐨𝐭 𝐂𝐡𝐚𝐧𝐠𝐢𝐧𝐠 𝐁𝐢𝐨👍🔥"
             event = await e.reply(text, parse_mode=None, link_preview=None )
             try:
                 await e.client(functions.account.UpdateProfileRequest(about=bio))
